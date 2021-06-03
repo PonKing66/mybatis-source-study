@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- <setting name="aggressiveLazyLoading" value="false"/> -->
+        <setting name="proxyFactory" value="CGLIB"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias alias="role" type="com.ponking.entiry.Role"/>
+    </typeAliases>
+
+    <typeHandlers>
+        <typeHandler jdbcType="VARCHAR" javaType="string" handler="com.ponking.handler.MyStringHandler"/>
+    </typeHandlers>
+
+    <!-- 定义数据库的信息，默认使用development数据库构建环境 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 定义映射器 -->
+    <mappers>
+<!--        <package name="com.ponking.mapper"/>-->
+        <mapper class="com.ponking.mapper.RoleMapper"></mapper>
+<!--        <mapper resource="src/com/ponking/mapper/RoleMapper.xml"/>-->
+    </mappers>
+
+
+<!--        10.映射器-->
+<!--    	10.1使用类路径-->
+<!--    	<mappers>-->
+<!--    	  <mapper resource="org/mybatis/builder/AuthorMapper.xml"/>-->
+<!--    	  <mapper resource="org/mybatis/builder/BlogMapper.xml"/>-->
+<!--    	  <mapper resource="org/mybatis/builder/PostMapper.xml"/>-->
+<!--    	</mappers>-->
+
+<!--    	10.2使用绝对url路径-->
+<!--    	<mappers>-->
+<!--    	  <mapper url="file:///var/mappers/AuthorMapper.xml"/>-->
+<!--    	  <mapper url="file:///var/mappers/BlogMapper.xml"/>-->
+<!--    	  <mapper url="file:///var/mappers/PostMapper.xml"/>-->
+<!--    	</mappers>-->
+
+<!--    	10.3使用java类名-->
+<!--    	<mappers>-->
+<!--    	  <mapper class="org.mybatis.builder.AuthorMapper"/>-->
+<!--    	  <mapper class="org.mybatis.builder.BlogMapper"/>-->
+<!--    	  <mapper class="org.mybatis.builder.PostMapper"/>-->
+<!--    	</mappers>-->
+
+<!--    	10.4自动扫描包下所有映射器-->
+<!--    	<mappers>-->
+<!--    	  <package name="org.mybatis.builder"/>-->
+<!--    	</mappers>-->
+
+</configuration>

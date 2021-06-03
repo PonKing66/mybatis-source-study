@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96bbc728-82fd-41f7-a068-656a35653147" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../mybatis/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/site/xdoc/sqlmap-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/site/xdoc/sqlmap-xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/test/java/org/apache/ibatis/submitted/complex_property/User.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/test/java/org/apache/ibatis/submitted/complex_property/User.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/test/java/org/apache/ibatis/submitted/complex_property/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/test/java/org/apache/ibatis/submitted/complex_property/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parent/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../parent/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parent/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mybatis" />
+  </component>
+  <component name="ProjectId" id="1moN3LaryQC9nfhAfmBxwWqMe3w" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 84 services" type="ed2a77a6:RestServiceTree$RootNode" />
+        </path>
+        <path>
+          <item name="Found 84 services" type="ed2a77a6:RestServiceTree$RootNode" />
+          <item name="cms" type="d145a731:RestServiceTree$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ponking.Main" />
+      <module name="mybatis-source-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ponking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96bbc728-82fd-41f7-a068-656a35653147" name="Default Changelist" comment="" />
+      <created>1610155791683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610155791683</updated>
+      <workItem from="1610155795159" duration="3485000" />
+      <workItem from="1611046552930" duration="364000" />
+      <workItem from="1611047032740" duration="505000" />
+      <workItem from="1622725846371" duration="2323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mybatis/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
